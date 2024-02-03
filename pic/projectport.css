@@ -15,7 +15,7 @@
    #header{
        width: 100%;
        height: 100vh;
-       background-image: url(pic/matss.png);
+       background-image: url(pic/mats.png);
        background-size: cover;
        background-position: centers;
    }
@@ -328,7 +328,7 @@
 
    @media only screen and (max-width: 600px){
        #header{
-           background-image: url(pic/tinr.png);
+           background-image: url(pic/mats.png);
        }
        .header-text{
            margin-top: 100%;
