@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contact="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Project Website</title>
+    <link rel="stylesheet" href="projectport.css">
+    <script src="https://kit.fontawesome.com/fb69c91e1c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+     <div class="container">
+          <nav>
+            <img src="pic/mjlogo.png" class="mjlogo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+
+                <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+               <p>STUDENT</p>
+               <h1>Hi, I'm <span>Martin </span><br>Piamonte From Cavite</h1>
+          </div>
+        </div>
+    </div>
+  <!--About-->
+
+   <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic/mp.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am Martin Jay A. Piamonte, 22 years old currently living in Bacoor, Cavite. I am the only child of my parents, I love drawings, music and most of all lifting in the gym.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Fitness Coach</span><br>Diet/Meal plan</li>
+                            <li><span>Motivational Speaker</span><br>Guest Speaker</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>3 years in lifting weights</span><br>Know how to Diet properly</li>
+                            <li><span>3rd Year college</span><br>Pursuing IT Course</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Elementary(2008-2013)</span><br>Pamplona Uno LPC</li>
+                            <li><span>High School(2013-2018)</span><br>LPNNHS</li>
+                            <li><span>Senior High(2018-2020)</span><br>St.Augustine LPC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-play"></i>
+                    <h2>Beginner's Coaching</h2>
+                    <p>I will provide a workout that fits the body of a beginner lifter.</p>
+                    <a href="">Learn more?</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bowl-food"></i>
+                    <h2>Meal Plan Coach</h2>
+                    <p>I will give a diet to a beginner based on his body and how and what food should be for him.</p>
+                    <a href="">Learn more?</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Online Coach</h2>
+                    <p>I will provide workouts and diets that he can use so we don't meet or talk in person.</p>
+                    <a href="">Learn more?</a>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Hobbies</h1>
+            <div class="hobby-list">
+                <div class="hob">
+                    <img src="pic/gym.jpg">
+                    <div class="layer">
+                        <h3>Working Out</h3>
+                        <p>One of my hobbies is lifting at the gym. It relieves my stress and makes me happy because it improves my health and even removes my sadness.</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="hob">
+                    <img src="pic/friends.jpg">
+                    <div class="layer">
+                        <h3>Being With Friends</h3>
+                        <p>I feel better when I'm with my friends, because they are not selfish but cooperative and I also enjoy them because of their jokes.</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="hob">
+                    <img src="pic/church.jpg">
+                    <div class="layer">
+                        <h3>Going to Church</h3>
+                        <p>I love going to church not only to go to church but because it helps my personal growth, especially my spiritual growth.</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="martinj">See more</a>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> martinjhay096@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> 09262346472</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/princemartin096"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/mj_piamonte1/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                    </div>
+                    <a href="pic/Modern Minimalist CV Resume.pdf" download class="martinj martinj2">Show CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submits-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="martinj martinj2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Martin.<i class="fa-solid fa-dumbbell"></i></p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby2zF7rlUvBm2sREc1DhgC4rokxW16TGR83SQZjOoy3AYCPD_RPHxh7dhXpyhu9Mmk_gA/exec'
+        const form = document.forms['submits-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
